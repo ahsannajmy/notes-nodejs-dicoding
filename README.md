@@ -82,6 +82,7 @@ This implementation also can be done in native Node JS or other Node JS web fram
 const requestListener = (request, response) => {
     response.setHeader('Content-Type','application/json');
     response.setHeader('Powered-By','Node.js');
+    const { method, url } = request;
     
     let body = [];
     
