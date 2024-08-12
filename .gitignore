@@ -131,3 +131,6 @@ dist
 .pnp.*
 
 eslint.config.mjs
+notes-api-dicoding.pem
+Dockerfile
+.dockerignore
